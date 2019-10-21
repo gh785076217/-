@@ -6,8 +6,6 @@
 	width: 100%;
 	color: #333333;
 	font-size: 18px;
-}
-.container>div {
 	margin: auto;
 }
 input[type=text] {
@@ -31,7 +29,9 @@ input[type=text] {
 	font-size: 16px;
 }
 .first p+div {
-	position: absolute;top: -5px;left: 880px;
+	position: absolute;
+	top: -5px;
+	left: 880px;
 }
 .second {
 	position: relative;
@@ -51,10 +51,6 @@ input[type=text] {
 	margin-left: 30px;
 	font-weight: bold;
 }
-.main>div {
-	position: relative;
-	margin-bottom: 12px;
-}
 .box1 {
 	display: inline-block;
 	background-color: #cbcbcb;
@@ -72,4 +68,8 @@ input[type=text] {
 div #test a {
 	background: #d7d7d7;
 	border: 2px solid white;
+}
+ul li{
+	position: relative;
+	margin-bottom: 15px;
 }

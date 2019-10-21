@@ -7,10 +7,6 @@
 	width: 100%;
 	color: #333333;
 	font-size: 18px;
-}
-
-.container>div {
-
 	margin: auto;
 }
 
@@ -43,8 +39,6 @@
 	top: 12px;
 }
 
-
-
 .box1 {
 	display: inline-block;
 	background-color: #cbcbcb;
@@ -66,30 +60,29 @@
 	margin-top: 8px;
 }
 
-.main>div {
-	position: relative;
-	margin-bottom: 20px;
-}
-
 .layui-col-md5 {
-	padding-left: 25px;
+	padding-left: 30px;
 }
 
 .box2 {
 	margin-bottom: 20px;
 }
 
-.biaoti2 p {
-	width: 340px;
+.main p {
+	width: 480px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	display: inline-block;
 }
 
-.biaoti2 span {
+.main span {
 	color: darkgray;
 	position: absolute;
 	top: 3px;
-	left: 345px;
+	left: 500px;
+}
+ul li {
+	position: relative;
+	margin-bottom: 15px;
 }

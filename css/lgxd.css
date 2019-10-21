@@ -6,9 +6,6 @@
 	width: 100%;
 	color: #333333;
 	font-size: 18px;
-}
-.container>div {
-	
 	margin: auto;
 }
 .biaoti1 {
@@ -19,6 +16,7 @@
 }
 .biaoti {
 	position: relative;
+	margin-bottom: 15px;
 }
 .biaoti div {
 	display: inline-block;
@@ -42,11 +40,7 @@
 	float: right;
 }
 .container2 {
-	margin-left: 165px;
-}
-.layui-col-md5>div {
-	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .box1 {
 	display: inline-block;
@@ -58,4 +52,11 @@
 }
 .box1+a {
 	margin-left: 30px;
+}
+ul li{
+	position: relative;
+	margin-bottom: 15px;
+}
+.container1 {
+	float: right;
 }
