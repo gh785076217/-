@@ -1,0 +1,29 @@
+body,td,th {font-size: 18px;background-color:white;font-family:Microsoft YaHei;}
+*{margin:0; padding:0;}
+
+li{list-style:none;}
+
+.sub_menu{	
+	line-height: 75px;
+}
+
+.title{
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;	
+}
+
+.fbr{
+	text-align: left;
+}
+
+.time{
+	text-align: right;
+	margin-top: -24px;
+}
+
+.rs{
+    border-bottom: 1px solid lightgray;
+    margin-top: 16px;
+    padding-bottom: 7px;
+}
