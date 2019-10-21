@@ -1,111 +1,147 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link type="text/css" rel="stylesheet" href="../css/zzsh.css" />
-		<link type="text/css" rel="stylesheet" href="../js/layui/css/layui.css" />
-		<script type="text/javascript" src="../js/layui/layui.js"></script>
-		<style type="text/css">
-			.layui-disabled, .layui-disabled:hover {
-    		color: #333!important;
-		}
-		</style>
-	</head>
-	<body>
-		<div class="container">			
-			<div class="layui-row first">
-				<p>首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="../pages/dongtaibobao.html">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p>
-				<div>
-					<form>
-						<input type="text" placeholder=" 请输入关键字">
-						<i class="layui-icon search">&#xe615;</i>
-					</form>
-				</div>
-			</div>
-			<div class="layui-row second">
-				<div></div>
-				<span>组织生活</span>
-			</div>
-			<div class="layui-row">
-				<ul>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-				</ul>
-			</div>					
-			<div id="test"></div>			
-		</div>
-	</body>
-	<script>
-		layui.use('laypage', function(){
-		  var laypage = layui.laypage;
-		  laypage.render({
-		    elem: 'test'
-		    ,count: 50
-		    ,theme:'#bf1a1c'
-		  });
-		});
 
-		function abc (name) {
-			alert(name)
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link type="text/css" rel="stylesheet" href="../css/zzsh.css" />
+	<link type="text/css" rel="stylesheet" href="../js/layui/css/layui.css" />
+	<script type="text/javascript" src="../js/layui/layui.js"></script>
+	<script src="../js/jquery-3.2.1.js"></script>
+	<style type="text/css">
+		.layui-disabled,
+		.layui-disabled:hover {
+			color: #333 !important;
 		}
-	</script>
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="layui-row first">
+			<!-- <p>首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="../pages/dongtaibobao.html">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p> -->
+			<div>
+				<form>
+					<input type="text" placeholder=" 请输入关键字">
+					<i class="layui-icon search">&#xe615;</i>
+				</form>
+			</div>
+		</div>
+		<div class="layui-row second">
+			<div></div>
+			<span class="titleName">组织生活</span>
+		</div>
+		<div class="layui-row">
+			<ul>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+				<li>
+					<div class="box1"></div>
+					<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="test"></div>
+	</div>
+</body>
+<script>
+	var nameArr = ['gzbs', 'gdpl', 'zyjh', 'xsyt']
+	layui.use('laypage', function () {
+		var laypage = layui.laypage;
+		laypage.render({
+			elem: 'test',
+			count: 50,
+			theme: '#bf1a1c'
+		});
+	});
+	getUrlName()
+
+	function getUrlName() {
+		var name = location.search.substring(1)
+		name = name.split('=')
+		if ('gzbs' == name[1]) {
+			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;工作部署</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('工作部署')
+		}
+
+		if ('gdpl' == name[1]) {
+			console.log(name[1])
+			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;观点评论</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('观点评论')
+		}
+
+		if ('zyjh' == name[1]) {
+			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;重要讲话</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('重要讲话')
+		}
+
+		if ('xxyt' == name[1]) {
+			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;学习研讨</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('学习研讨')
+		}
+
+
+		console.log(name[1])
+
+	}
+</script>
+
 </html>
