@@ -1,0 +1,204 @@
+.main {
+  margin: 30px auto;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.sy01 {
+  background: red;
+  height: 360px;
+  width: 600px;
+  margin: auto;
+  ;
+}
+
+.sy01 .layui-carousel-ind {
+  width: 174px;
+  float: right;
+  position: relative;
+  top: -21px;
+}
+
+.sy01 ul {
+  background: rgba(248, 248, 248, 0) !important;
+}
+
+.sy01 li.layui-this {
+  background: rgb(165, 50, 76) !important;
+}
+
+.sy01 li {
+  background: rgb(183, 183, 183) !important;
+}
+
+
+.sy01 img {
+  width: 600px;
+  height: 350px;
+}
+
+.sy011 {
+  position: relative;
+  top: -21px;
+  background: white;
+  font-size: 16px;
+  text-indent: 8px;
+  line-height: 38px;
+}
+
+.sy021 {
+  color: #333333;
+  font-size: 18px;
+  width: 78%;
+  margin: auto;
+}
+
+.sy021 li {
+  height: 2.343em;
+  list-style: square;
+
+}
+
+.sy021 a {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sy032 {
+  margin-top: 18px;
+}
+
+.sy0321 {
+  color: #333333;
+  font-size: 18px;
+  width: 88%;
+  margin: auto;
+}
+
+.sy0321 li {
+  height: 2.343em;
+  list-style: square;
+}
+
+.sy0321 a {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sy031 {
+  font-size: 24px;
+  color: red;
+
+  line-height: 41px;
+  height: 40px;
+  width: 95%;
+  margin: auto;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.sy031 img {
+  position: relative;
+  top: -2px;
+}
+
+.sy031 a {
+  float: right;
+  font-size: 18px;
+  padding-right: 6px;
+}
+
+.sy031 img:nth-child(3) {
+  float: right;
+  position: relative;
+  top: 13px;
+}
+
+.sy04 {
+  width: 1200px;
+  height: 160px;
+  margin: auto;
+}
+
+.sy051 {
+  color: red;
+  font-size: 24px;
+  line-height: 41px;
+  width: 88%;
+  margin: auto;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.sy051 img {
+  position: relative;
+  top: -2px;
+}
+
+.sy051 img:nth-child(3) {
+  float: right;
+  position: relative;
+  top: 13px;
+}
+
+.sy051 a {
+  float: right;
+  font-size: 18px;
+  padding-right: 6px;
+}
+
+.sy0521 {
+  color: #333333;
+  font-size: 18px;
+  width: 81%;
+  margin: auto;
+  height: 180px;
+  padding-top: 16px;
+}
+
+.sy0521 li {
+  height: 29px;
+  list-style: initial;
+}
+
+.sy0521 a {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sy050 {
+  width: 61px;
+  height: 195px;
+  margin: auto;
+}
+.xxpt_img {
+  width: 5.666667% !important;
+}
+.xxpt {
+  margin-top: 37px;
+}
+.xxyt {
+  left: 102px;
+}
+
+.sy06 {
+  margin: auto;
+  width: 380px;
+}
+
+.imgBar {
+  margin-top: 28px;
+}
+
+.sy03 {
+  background: #F5F5F5;
+  width: 96%;
+}
+
+.gdpl {
+  margin-left: 24px;
+}

@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	color: #333333;
+	font-size: 18px;
+}
+
+.container>div {
+
+	margin: auto;
+}
+
+.layui-col-md7 {
+	border-right: solid 1px gainsboro;
+	padding-right: 50px;
+}
+
+.redbox {
+	display: inline-block;
+	background-color: #bf1a1c;
+	width: 7px;
+	height: 24px;
+	position: absolute;
+	top: 5px;
+}
+
+.redbox+span {
+	font-size: 24px;
+	color: #bf1a1c;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.box2 a span {
+	color: #666666;
+	font-size: 16px;
+	position: relative;
+	float: right;
+	top: 12px;
+}
+
+
+
+.box1 {
+	display: inline-block;
+	background-color: #cbcbcb;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: 10px;
+}
+
+.box1+a span {
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.box1~p {
+	color: #666666;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 8px;
+}
+
+.main>div {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.layui-col-md5 {
+	padding-left: 25px;
+}
+
+.box2 {
+	margin-bottom: 20px;
+}
+
+.biaoti2 p {
+	width: 340px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+.biaoti2 span {
+	color: darkgray;
+	position: absolute;
+	top: 3px;
+	left: 345px;
+}

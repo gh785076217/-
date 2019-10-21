@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>川姜智慧党建</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="js/layui/css/layui.css">
+  <script src="js/layui/layui.js"></script>
+  <script src="js/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+  <div class="dj">
+    <!-- 头部 -->
+    <div class="dj01">
+      <div class="nav">
+        <ul class="layui-nav dj011">
+          <li class="layui-nav-item dj0111">
+            <a href=""><img src="img/001.png" class="layui-nav-img ">川姜智慧党建</a>
+          </li>
+          <li class="layui-nav-item dj0112">
+            <a href=""><img src="//t.cn/RCzsdCq" class="layui-nav-img">退出</a>
+          </li>
+          <li class="layui-nav-item dj0113">
+            <a href=""><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+          </li>
+        </ul>
+      </div>
+      <div class="dj012"></div>
+
+      <div class="dj013">
+        <ul class="layui-nav" lay-filter="bar">
+          <li class="layui-nav-item layui-this">
+            <a href="javascript:;">首页</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="javascript:;">动态播报</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="javascript:;">理论武装</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="javascript:;">作风优化</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="javascript:;">对标对表</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="javascript:;">查改提质</a>
+          </li>
+          <li class="layui-nav-item">
+            <a href="javascript:;">互动交流</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 头部内容结束 -->
+    <div class="dj02">
+      <iframe class="dj021" src="pages/shouye.html" frameborder="0"></iframe>
+    </div>
+  </div>
+</body>
+<script>
+  layui.use(['element', 'layer'], function () {
+    var layer = layui.layer;
+    var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+    //监听导航点击
+    element.on('nav(bar)', function (elem) {
+      layer.msg('请稍等...');
+      var navName = elem.text();
+
+      if (navName == '首页') {
+
+        $('.dj021').attr('src', 'pages/shouye.html')
+
+      } else if (navName == '动态播报') {
+
+        $('.dj021').attr('src', 'pages/dongtaibobao.html')
+
+      } else if (navName == '理论武装') {
+
+        $('.dj021').attr('src', 'https://www.baidu.com')
+
+      } else if (navName == '作风优化') {
+
+        $('.dj021').attr('src', 'https://www.baidu.com')
+
+      } else if (navName == '对标对表') {
+
+        $('.dj021').attr('src', 'https://www.baidu.com')
+
+      } else if (navName == '查改提质') {
+
+        $('.dj021').attr('src', 'pages/chagaitizhi.html')
+
+      } else if (navName == '互动交流') {
+
+        $('.dj021').attr('src', 'https://www.baidu.com')
+
+      }
+
+    });
+  });
+
+  function clickMore () {
+
+  }
+</script>
+
+</html>
