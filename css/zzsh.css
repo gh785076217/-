@@ -73,3 +73,55 @@ ul li{
 	position: relative;
 	margin-bottom: 15px;
 }
+
+.container1 {
+	width: 73%;
+	margin: auto;
+	float: left;
+}
+.navBar {
+	width: 10%;
+	float: left;
+	margin-top: 65px;
+}
+
+.navBar ul {
+	width: 71%;
+	
+}
+
+.navBar li {
+	
+	background-color: #DBDBDB;
+	border-bottom: 3px solid white;
+}
+
+.navBar .layui-nav {
+	background-color: rgba(255, 255, 255, 0) !important;
+}
+
+
+.navBar .layui-nav>.layui-this>a{
+	background-color: red !important;
+	color: white !important;
+	
+}
+.navBar .layui-nav-bar {
+	background-color: #ffffff !important;
+}
+
+.navBar .layui-nav-item a:hover{
+	background-color: #aca9a9 !important;
+	
+}
+
+.navBar .layui-nav a{
+	color: black !important; 
+	text-align: center;
+	height: 40px !important;
+	line-height: 43px !important;
+}
+
+.navBar li {
+	margin-bottom: 0px;
+}
