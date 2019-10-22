@@ -5,7 +5,8 @@
 .container {
 	width: 100%;
 	color: #333333;
-	font-size: 18px;
+    font-size: 18px;
+    margin: auto;
 }
 input[type=text] {
 	width: 250px;
@@ -48,10 +49,38 @@ input[type=text] {
 	font-size: 24px;
 	color: #bf1a1c;
 	margin-left: 30px;
-	font-weight: bold;
+	
 }
-ul li {
+.third ul li {
     list-style-type: none;
     display: inline;
-    margin: 0 30px 30px 0;
+    margin-right: 30px;
+}
+.third a {
+	font-weight: bold;
+}
+.four ul li {
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    margin-right: 135px;
+}
+.box1 {
+	display: inline-block;
+	background-color: #bf1a1c;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	top: 8px;
+}
+.box1+span {
+    margin-left: 20px;
+}
+.third div {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.four li>div {
+    display: inline-block;
+    padding-bottom: 10px;
 }
