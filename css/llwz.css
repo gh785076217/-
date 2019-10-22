@@ -1,0 +1,128 @@
+body,
+td,
+th {
+    font-size: 18px;
+    background-color: white;
+    font-family: Microsoft YaHei;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+    color: #aa2529;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    border-bottom: 2px solid;
+    text-shadow: 3px 2px 0px gold;
+}
+
+.title_img {
+    text-align: center;
+    height: 362px;
+    margin-top: 19px;
+    width: 100%;
+    background: url(../img/title_llwz.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#buttons {
+    float: right;
+    margin: 19px 58px;
+}
+
+.button {
+    width: 152px;
+    border: 1px solid #aa2529;
+    height: 61px;
+    line-height: 61px;
+    margin: 29px 0px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.zyjh {
+    background-color: #aa2529;
+    color: #fff;
+    font-size: 22px;
+}
+
+.sub_title {
+    color: #aa2529;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.book {
+    margin-left: -87px;
+    color: #aa2529
+}
+
+.book li {
+    list-style: square;
+    font-size: 26px;
+    float: left;
+    margin-left: 113px;
+    margin-right: 2px;
+}
+
+.book span {
+    color: black;
+}
+
+.book:after{
+    clear: both;
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.left_menu{
+    margin-top: 18px;
+}
+.left_menu a {
+    font-size: 20px;
+    display: table;
+    float: left;
+    width: 133px;
+    height: 89px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 89px;
+    margin: 1px;
+    cursor: pointer;
+}
+.left_menu a.on {
+    background-position: 0px center;
+    background-color: #aa2529;
+    color: #fff;
+}
+.right_menu{
+    background: #F5F5F5;
+    margin-top: 18px;
+    padding-left: 57px;
+    font-size: 21px;
+    line-height: 53px;
+    color: lightgrey;
+    height: 367px;
+}
+.right_menu li {
+    list-style: disc;
+}
+.right_menu a {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
