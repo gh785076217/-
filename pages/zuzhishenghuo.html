@@ -34,8 +34,8 @@
 
 		<div class="container1">
 			<div class="layui-row first">
-				<!-- <p>首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="../pages/dongtaibobao.html">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活 -->
-				</!-->
+				 <!-- <p>首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="../pages/dongtaibobao.html">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p> -->
+				
 				<div>
 					<form>
 						<input type="text" placeholder=" 请输入关键字">
@@ -117,7 +117,7 @@
 
 </body>
 <script>
-	var nameArr = ['gzbs', 'gdpl', 'zyjh', 'xsyt']
+	
 	layui.use(['laypage', 'element', 'layer'], function () {
 		var layer = layui.layer;
 		var element = layui.element;
@@ -125,6 +125,7 @@
 			//console.log(elem)
 			layer.msg(elem.text());
 		});
+
 		var laypage = layui.laypage;
 		laypage.render({
 			elem: 'test',
@@ -132,8 +133,9 @@
 			theme: '#bf1a1c'
 		});
 	});
-	getUrlName()
 
+
+	getUrlName()
 	function getUrlName() {
 		var name = location.search.substring(1)
 		if ('gzbs' == name) {
@@ -160,7 +162,39 @@
 			$('.first').prepend(str)
 			$('.titleName').html('学习研讨')
 		}
-		console.log(name[1])
+		
+		if ('ycjy' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;远程教育</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('远程教育')
+		}
+
+		if ('zzsh' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('组织生活')
+		}
+
+		if ('ztdr' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;主题党日</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('主题党日')
+		}
+
+		if ('jswt' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;检视问题</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('检视问题')
+		}
+
+		
+		if ('llwz' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">理论武装</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;党章党规</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('理论武装')
+			$('.navBar').css({visibility : 'visible'})
+		}
+		
 
 	}
 </script>

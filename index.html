@@ -70,7 +70,9 @@
 
     //监听导航点击
     element.on('nav(bar)', function (elem) {
-      layer.msg('请稍等...');
+      layer.msg('请稍等...', {
+        time: 1000
+      });
       var navName = elem.text();
 
       if (navName == '首页') {
@@ -83,7 +85,7 @@
 
       } else if (navName == '理论武装') {
 
-        $('.dj021').attr('src', 'https://www.baidu.com')
+        $('.dj021').attr('src', 'pages/lilunwuzhuang.html')
 
       } else if (navName == '作风优化') {
 
@@ -91,7 +93,7 @@
 
       } else if (navName == '对标对表') {
 
-        $('.dj021').attr('src', 'https://www.baidu.com')
+        $('.dj021').attr('src', 'pages/dbdb.html')
 
       } else if (navName == '查改提质') {
 
@@ -105,8 +107,6 @@
 
     });
   });
-
-  
 </script>
 
 </html>

@@ -83,6 +83,7 @@ ul li{
 	width: 10%;
 	float: left;
 	margin-top: 65px;
+	visibility: hidden;
 }
 
 .navBar ul {
