@@ -51,10 +51,11 @@ li {
 
 .zyjh {
     background-color: #aa2529;
-    color: #fff;
     font-size: 22px;
 }
-
+.zyjh a{
+    color: #fff;
+}
 .sub_title {
     color: #aa2529;
     font-size: 28px;
@@ -75,8 +76,8 @@ li {
     margin-right: 2px;
 }
 
-.book span {
-    color: black;
+.book a {
+    cursor: pointer;
 }
 
 .book:after{
@@ -113,10 +114,10 @@ li {
     background: #F5F5F5;
     margin-top: 18px;
     padding-left: 57px;
-    font-size: 21px;
-    line-height: 53px;
+    font-size: 17px;
+    line-height: 40px;
     color: lightgrey;
-    height: 367px;
+    height: 277px;
 }
 .right_menu li {
     list-style: disc;
@@ -130,6 +131,6 @@ li {
 }
 .right_menu img {
     position: absolute;
-    top: 150px;
+    top: 117px;
     left: 800px;
 }
