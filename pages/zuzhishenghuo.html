@@ -48,43 +48,7 @@
 				<span class="titleName">组织生活</span>
 			</div>
 			<div class="layui-row">
-				<ul>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
-					<li>
-						<div class="box1"></div>
-						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
-					</li>
+				<ul class="ul_body">
 					<li>
 						<div class="box1"></div>
 						<a href="#"><span>在主题教育工作会议上的讲话 (全文) 图解 要点 2019-10-12</span></a>
@@ -187,6 +151,23 @@
 			$('.titleName').html('检视问题')
 		}
 
+		if ('zgls' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;整改落实</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('整改落实')
+		}
+
+		if ('lgxd' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">互动交流</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;来稿选登</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('"向组织说出心里话" 来稿')
+		}
+
+		if ('cjxjdx' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">对标对标</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;国家先进典型</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('国家先进典型')
+		}
 		
 		if ('llwz' == name) {
 			var str = '<p><a href="javascript:history.back(-1)">理论武装</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;党章党规</p>';
@@ -194,6 +175,8 @@
 			$('.titleName').html('理论武装')
 			$('.navBar').css({visibility : 'visible'})
 		}
+
+		
 		
 
 	}
