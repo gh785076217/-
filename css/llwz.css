@@ -129,9 +129,7 @@ li {
     padding-left: 19px;
 }
 .right_menu img {
-    position: absolute;
-    top: 117px;
-    left: 800px;
+    margin: 103px 19px;
 }
 body,ul{
     margin: 0;
@@ -158,4 +156,16 @@ body,ul{
 	border-radius: 50%;
 	position: absolute;
 	margin-top: 14px;
+}
+.arrow{
+    height: 277px;
+    float: right;
+    width: 76px;
+    background-color: #F5F5F5;
+    margin-top: -279px;
+}
+
+.arrow:hover
+{ 
+background-color:darkgray;
 }
