@@ -9,14 +9,12 @@
     <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="../js/layui/layui.js"></script>
     <style type="text/css">
-        body,
         td,
         th {
             font-size: 18px;
             background-color: white;
             font-family: Microsoft YaHei;
         }
-
         .layui-nav-tree .layui-nav-item a {
             height: 67px;
             width: 46px;
@@ -25,7 +23,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="" style="width: 100%;">
         <div style="width: 72%; margin: auto;">
@@ -61,67 +58,106 @@
                 </ul>
             </div>
             <div class="title" style="margin-top: 24px">党规党章</div>
-            <div class="layui-row">
-                <div class="layui-col-xs2">
-                    <div class="left_menu">
-                        <ul class="layui-nav layui-nav-tree" lay-filter="test">
-                            <li class="layui-nav-item layui-nav-itemed">
-                                <a class="on" href="javascript:;">党章</a>
-                            </li>
-                            <li class="layui-nav-item">
-                                <a href="javascript:;">准则</a>
-                            </li>
-                            <li class="layui-nav-item"><a href="">条例</a></li>
-                            <li class="layui-nav-item"><a href="">规则</a></li>
-                            <li class="layui-nav-item"><a href="">规定</a></li>
-                            <li class="layui-nav-item"><a href="">办法</a></li>
-                            <li class="layui-nav-item"><a href="">细则</a></li>
-                            <li class="layui-nav-item"><a href="">规范性文件</a></li>
-                        </ul>
-                    </div>
+            <div class="layui-row box">
+                <div class="layui-col-xs2 left_menu">
+                    <ul class="layui-nav layui-nav-tree  tab-menu" lay-filter="test">
+                        <li class="layui-nav-item active"><a class="on" href="javascript:;">党章</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">准则</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">条例</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">规则</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">规定</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">办法</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">细则</a></li>
+                        <li class="layui-nav-item"><a href="javascript:;">规范性文件</a></li>
+                    </ul>
                 </div>
-                <div class="layui-col-xs10">
-                    <div class="right_menu list1">
-                        <ul>
-                            <li><a href="">
-                                    <p>在主题教育工作会议上的讲话 (全文）图解 要点</p>
-                                </a></li>
-                            <li><a href="">
-                                    <p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p>
-                                </a></li>
-                            <li><a href="">
-                                    <p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p>
-                                </a></li>
-                            <li><a href="">
-                                    <p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p>
-                                </a></li>
-                            <li><a href="">
-                                    <p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p>
-                                </a></li>
-                            <li><a href="">
-                                    <p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p>
-                                </a></li>
-                            <li><a href="">
-                                    <p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p>
-                                </a></li>
-                        </ul>
-                        <a href="#"><img src="../img/矩形18拷贝.png" /></a>
-                    </div>
-                    <div class="right_menu list2" style="display: none">
-                        <ul>
-                            <li><a href="">在主题教育工作会议上的讲话 (全文）图解 要点</a></li>
-                            <li><a href="">习近平在庆祝新中国成立70周年大会 国庆招待会上</a></li>
-                            <li><a href="">中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</a></li>
-                            <li><a href="">习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</a></li>
-                            <li><a href="">习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</a></li>
-                            <li><a href="">习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</a></li>
-                            <li><a href="">中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <div class="layui-col-xs10 right_menu">
+                    <ul class="tab-content">
+                        <li class="show">                          
+                            <a href="#"><p>111在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>222在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>333在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>444在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>555在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>666在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>777在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>888在主题教育工作会议上的讲话 (全文）图解 要点</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>习近平考察河南 指导开展第二批主题教育 指导主题教育纪实</p></a>
+                            <a href="#"><p>习近平在庆祝新中国成立70周年大会 国庆招待会上的讲话</p></a>
+                            <a href="#"><p>中共中央办公厅印发《干部选拔任用工作监督检查和责任追究办法》(2014年4月印发）</p></a>
+                        </li>
+                    </ul>
+                    <a href="#"><img src="../img/矩形18拷贝.png" /></a>
+                </div>                   
             </div>
         </div>
     </div>
 </body>
-
+<script type="text/javascript">
+    $('.tab-menu').find('li').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        $(this).find('a').addClass('on');
+        $(this).siblings().find('a').removeClass('on');
+        $('.tab-content').find('li').eq($(this).index()).addClass('show').siblings().removeClass('show');
+    })
+</script>
 </html>
