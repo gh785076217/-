@@ -127,6 +127,7 @@ li {
     white-space: nowrap;
     overflow: hidden;
     width: 600px;
+    padding-left: 19px;
 }
 .right_menu img {
     position: absolute;
@@ -149,4 +150,12 @@ body,ul{
 }
 .tab-content .show{
     display: block;
+}
+.disc{
+	width: 8px;
+	height: 8px;
+	background-color: lightgray;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 14px;
 }
