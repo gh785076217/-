@@ -144,6 +144,7 @@ body,ul{
 }
 .tab-menu .active{
     background: #aa2529;
+    color: white;
 }
 .tab-content li{
     display: none;
