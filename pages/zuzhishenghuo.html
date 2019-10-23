@@ -176,6 +176,18 @@
 			$('.navBar').css({visibility : 'visible'})
 		}
 
+		if ('zfyh' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;作风优化</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('作风优化')
+		}
+
+		if ('gjxz' == name) {
+			var str = '<p><a href="javascript:history.back(-1)">对标对表</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;国家勋章和国家荣誉称号获得者</p>';
+			$('.first').prepend(str)
+			$('.titleName').html('国家勋章和国家荣誉称号获得者')
+		}
+
 		
 		
 
