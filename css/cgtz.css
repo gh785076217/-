@@ -4,7 +4,7 @@
 }
 
 .container {
-	width: 89%;
+	width: 76%;
 	color: #333333;
 	font-size: 18px;
 	margin: 22px auto;
@@ -61,7 +61,7 @@
 }
 
 .layui-col-md5 {
-	padding-left: 30px;
+	padding-left: 20px;
 }
 
 .box2 {
@@ -69,7 +69,7 @@
 }
 
 .main p {
-	width: 480px;
+	width: 419px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -80,7 +80,7 @@
 	color: darkgray;
 	position: absolute;
 	top: 3px;
-	left: 500px;
+	left: 425px;
 }
 ul li {
 	position: relative;

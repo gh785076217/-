@@ -21,6 +21,7 @@
 		<div class="" style="width: 100%;">
 			<div style="width: 60%; margin: auto;">
 				<div class="sub_menu">
+					<a href="javascript:history.back(-1)">&lt;返回上一页</a>
 					<!--<a href="../pages/shouye.html">首页 ></a><a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">组织生活</a>-->
 				</div>				
 		        <div class="title">习近平: 在庆祝中华人民共和国成立70周年大会上的讲话</div>
@@ -85,64 +86,67 @@
 		var name = location.search.substring(1)
 		if ('gzbs' == name) {
 			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">工作部署</a>';
-			$('.sub_menu').prepend(str)
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('gdpl' == name) {
 			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">观点评论</a>';
-			$('.sub_menu').prepend(str)
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('zyjh' == name) {
 			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">重要讲话</a>';
-			$('.sub_menu').prepend(str)
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('xxyt' == name) {
 			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">学习研讨</a>';
-			$('.sub_menu').prepend(str)
+			$('.sub_menu').html("").prepend(str)
 		}
 		
+		if ('zfyh' == name) {
+			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">作风优化</a>';
+			$('.sub_menu').html("").prepend(str)
+		}
+
 		if ('ycjy' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;远程教育</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('远程教育')
+			var str = '<a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">远程教育</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('zzsh' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('组织生活')
+			var str = '<a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">组织生活</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('ztdr' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;主题党日</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('主题党日')
+			var str = '<a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">主题党日</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('jswt' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;检视问题</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('检视问题')
+			var str = '<a href="../pages/chagaitizhi.html">查改提质 ></a><a href="javascript:history.back(-1)">检视问题</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('zgls' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;整改落实</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('整改落实')
+			var str = '<a href="../pages/chagaitizhi.html">查改提质 ></a><a href="javascript:history.back(-1)">整改落实</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('lgxd' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">互动交流</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;来稿选登</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('"向组织说出心里话" 来稿')
+			var str = '<a href="../pages/laigaoxuandeng.html">互动交流 ></a><a href="javascript:history.back(-1)">来稿选登</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('cjxjdx' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">对标对标</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;川姜先进典型</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('国家先进典型')
+			var str = '<a href="../pages/dbdb.html">对标对表 ></a><a href="javascript:history.back(-1)">川姜先进典型</a>';
+			$('.sub_menu').html("").prepend(str)
+		}
+
+		if ('gjxz' == name) {
+			var str = '<a href="../pages/dbdb.html">对标对表 ></a><a href="javascript:history.back(-1)">国家勋章和国家荣誉称号获得者</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 		
 		if ('llwz' == name) {
@@ -151,21 +155,6 @@
 			$('.titleName').html('理论武装')
 			$('.navBar').css({visibility : 'visible'})
 		}
-
-		if ('zfyh' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;作风优化</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('作风优化')
-		}
-
-		if ('gjxz' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">对标对表</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;国家勋章和国家荣誉称号获得者</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('国家勋章和国家荣誉称号获得者')
-		}
-
-		
-		
 
 	}
 	</script>
