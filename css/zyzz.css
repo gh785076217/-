@@ -56,6 +56,10 @@ input[type=text] {
     display: inline;
     margin-right: 30px;
 }
+.third p {
+	display: inline-block;
+	width: 160px;
+}
 .third a {
 	font-weight: bold;
 }
