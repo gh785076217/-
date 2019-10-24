@@ -1,8 +1,8 @@
 td,
 th {
-    font-size: 18px;
-    background-color: white;
-    font-family: Microsoft YaHei;
+    font-size: 18px !important;
+    background-color: white !important;
+    font-family: Microsoft YaHei !important ;
 }
 
 * {
@@ -168,4 +168,22 @@ body,ul{
 .arrow:hover
 { 
 background-color:darkgray;
+}
+
+
+.layui-nav-tree .layui-nav-item a {
+    height: 67px !important;
+    width: 46px !important;
+    line-height: 67px !important;
+    color: black !important
+}
+
+.left_menu a.on {
+    color: #fff !important;
+}
+
+
+.layui-nav-tree .layui-nav-item a:hover {
+    background-color: #fff !important;
+    color: black !important;
 }
