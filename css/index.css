@@ -26,7 +26,7 @@ body {
   margin: auto;
   background: transparent !important;
   color: black !important;
-  height: 40px;
+  height: 46px;
   line-height: 10px !important;
 }
 
@@ -114,6 +114,11 @@ body {
   height: 1500px;
 }
 
+.dj0113_Exit {
+  width: 12px !important;
+  height: 13px !important;
+  border-radius: 0% !important;
+}
 
 
 .dj021AniOn {
@@ -135,4 +140,3 @@ body {
     opacity: 1;
   }
 }
-
