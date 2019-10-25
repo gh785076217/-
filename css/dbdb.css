@@ -3,10 +3,10 @@
 	padding: 0;
 }
 .container {
-	width: 63%;
+	width: 76%;
 	color: #333333;
     font-size: 18px;
-    margin: auto;
+    margin: 34px auto;
 }
 .biaoti>span {
 	font-size: 24px;
@@ -14,6 +14,7 @@
 	margin-left: 33%;
     font-weight: bold;
     text-align: center;
+    text-shadow: 3px 2px 0px gold;
 }
 .biaoti a span {
 	color: #666666;
@@ -25,7 +26,7 @@
 .biaoti1 ul li {
     list-style-type: none;
     float: left;
-    margin-right: 28px; 
+    margin-right: 29px; 
     margin-bottom: 15px;
 }
 .biaoti1 ul li:nth-of-type(4n) {
@@ -38,10 +39,10 @@
     display: inline-block;
 }
 img {
-    width: 225px;
+    width: 274px;
 }
 .biaoti2 ul li {
-    margin: 0 50px 10px 19px;
+    margin: 0 160px 10px 19px;
     list-style-type: square;
     float: left;
     font-size: 24px;
@@ -61,11 +62,11 @@ img {
     margin-bottom: 30px;
 }
 .biaoti3 ul li {
-    margin: 0 56px 10px 14px;
+    margin: 0 164px 10px 15px;
     list-style-type: square;
     float: left;
     color: #666666;
-	font-size: 16px;
+	font-size: 18px;
 }
 .biaoti3 p {
     width: 420px;
@@ -73,17 +74,23 @@ img {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
-.biaoti4>span {
-	font-size: 24px;
+.biaoti4 p {
+    display: inline-block;
+    font-size: 24px;
 	color: #bf1a1c;
-	margin-left: 40%;
+	margin-left: 42%;
     font-weight: bold;
     text-align: center;
+    text-shadow: 3px 2px 0px gold;
 }
 .biaoti4 a span {
 	color: #666666;
 	font-size: 16px;
 	position: relative;
-	top: 12px;
-	float: right;
+    top: 12px;
+    float: right;
+}
+
+.db{
+    text-align: center;
 }

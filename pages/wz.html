@@ -19,9 +19,9 @@
 	</head>
 	<body>
 		<div class="" style="width: 100%;">
-			<div style="width: 60%; margin: auto;">
+			<div style="width: 76%; margin: auto;">
 				<div class="sub_menu">
-					<a href="javascript:history.back(-1)">&lt;返回上一页</a>
+					<a href="javascript:history.back(-1)">&lt;&nbsp;返回上一页</a>
 					<!--<a href="../pages/shouye.html">首页 ></a><a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">组织生活</a>-->
 				</div>				
 		        <div class="title">习近平: 在庆祝中华人民共和国成立70周年大会上的讲话</div>
@@ -84,30 +84,36 @@
 	getUrlName()
 	function getUrlName() {
 		var name = location.search.substring(1)
+
+		if('ttxw' == name){
+			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
+			$('.sub_menu').html("").prepend(str)
+		}
+
 		if ('gzbs' == name) {
-			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">工作部署</a>';
+			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('gdpl' == name) {
-			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">观点评论</a>';
+			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('zyjh' == name) {
-			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">重要讲话</a>';
+			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
 
 		if ('xxyt' == name) {
-			var str = '<a href="../pages/shouye.html">首页 ></a><a href="javascript:history.back(-1)">学习研讨</a>';
+			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
 		
-		if ('zfyh' == name) {
-			var str = '<a href="javascript:history.back(-1)">返回 ></a><a>作风优化 </a>';
+		/*if ('zfyh' == name) {
+			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
-		}
+		}*/
 
 		if ('ycjy' == name) {
 			var str = '<a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">远程教育</a>';
@@ -149,11 +155,9 @@
 			$('.sub_menu').html("").prepend(str)
 		}
 		
-		if ('llwz' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">理论武装</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;党章党规</p>';
-			$('.first').prepend(str)
-			$('.titleName').html('理论武装')
-			$('.navBar').css({visibility : 'visible'})
+		if ('gzzz' == name) {
+			var str = '<a href="../pages/lilunwuzhuang.html">< 理论武装</a>';
+			$('.sub_menu').html("").prepend(str)
 		}
 
 	}
