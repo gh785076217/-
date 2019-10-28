@@ -122,6 +122,7 @@ hr{
     line-height: 36px;
     color: lightgrey;
     height: 277px;
+    padding-top: 12px;
 }
 .right_menu li {
     list-style: none;

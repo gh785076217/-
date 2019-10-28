@@ -177,13 +177,13 @@ hr{
 .content_1 {
 	width: 55% !important;
 	padding-right: 30px !important;
-	border-right: 1px solid lightgray !important;
 }
 
 .content_2 {
 	float: right !important;
-	width: 42% !important;
-	padding-right: 16px !important;
+	width: 45% !important;
+	padding-left: 30px;
+	border-left: 1px solid lightgray;
 }
 
 .content {
