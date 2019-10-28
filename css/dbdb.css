@@ -16,11 +16,23 @@
     text-align: center;
     text-shadow: 3px 2px 0px gold;
 }
+.title{
+    background: url(../img/017.png) no-repeat;
+	height: 38px;
+    width: 504px;
+    margin: auto
+}
+.title1{
+    background: url(../img/018.png) no-repeat;
+	height: 38px;
+    width: 220px;
+    margin: auto
+}
 .biaoti a span {
 	color: #777777;
 	font-size: 16px;
 	position: relative;
-	top: 12px;
+	top: -15px;
 	float: right;
 }
 .biaoti1 ul li {
@@ -91,7 +103,7 @@ img {
 	color: #777777;
 	font-size: 16px;
 	position: relative;
-    top: 12px;
+    top: -15px;
     float: right;
 }
 
