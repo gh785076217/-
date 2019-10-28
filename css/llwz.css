@@ -118,7 +118,8 @@ li {
     height: 277px;
 }
 .right_menu li {
-    list-style: disc;
+    list-style: none;
+	margin-top: -9px;
 }
 .right_menu p {
     display: block;
@@ -162,12 +163,16 @@ body,ul{
     float: right;
     width: 76px;
     background-color: #F5F5F5;
-    margin-top: -279px;
+	line-height: 277px;
+	position: absolute;
+	z-index: 1;
+	margin: 18px 1059px;
+	text-align: center; 
 }
 
 .arrow:hover
 { 
-background-color:darkgray;
+background-color:lightgray;
 }
 
 
