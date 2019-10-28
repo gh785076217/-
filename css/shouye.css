@@ -15,9 +15,9 @@
 
 .sy01 .layui-carousel-ind {
   width: 174px;
-  float: right;
   position: relative;
   top: -21px;
+  left: 458px;
 }
 
 .sy01 ul {
@@ -43,12 +43,11 @@
   top: -21px;
   background: white;
   font-size: 16px;
-  text-indent: 8px;
   line-height: 38px;
 }
 
 .sy021 {
-  color: #333333;
+  color: #cccccc;
   font-size: 18px;
   width: 78%;
   margin: auto;
@@ -73,7 +72,7 @@
 }
 
 .sy0321 {
-  color: #333333;
+  color: #cccccc;
   font-size: 18px;
   width: 88%;
   margin: auto;
@@ -82,6 +81,7 @@
 .sy0321 li {
   height: 2.343em;
   list-style: square;
+  margin-left: 5px;
 }
 
 .sy0321 a {
@@ -89,12 +89,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin-left: 7px;
 }
 
 .sy031 {
-  font-size: 24px;
+  font-size: 22px;
   color: red;
-
+  font-weight: bold;
   line-height: 41px;
   height: 40px;
   width: 95%;
@@ -109,8 +110,10 @@
 
 .sy031 a {
   float: right;
-  font-size: 18px;
+  font-weight: normal;
+  font-size: 16px;
   padding-right: 6px;
+  color: #777777;
 }
 
 .sy031 img:nth-child(3) {
@@ -127,7 +130,8 @@
 
 .sy051 {
   color: red;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: bold;
   line-height: 41px;
   width: 88%;
   margin: auto;
@@ -147,12 +151,13 @@
 
 .sy051 a {
   float: right;
-  font-size: 18px;
+  font-weight: normal;
+  font-size: 16px;
   padding-right: 6px;
 }
 
 .sy0521 {
-  color: #333333;
+  color: #cccccc;
   font-size: 18px;
   width: 81%;
   margin: auto;
@@ -162,7 +167,7 @@
 
 .sy0521 li {
   height: 29px;
-  list-style: initial;
+  list-style: square;
 }
 
 .sy0521 a {
@@ -198,10 +203,6 @@
 
 .sy03 {
   background: #F5F5F5;
-  width: 96%;
-  height: 312px;
-}
-
-.gdpl {
-  margin-left: 24px;
+  width: 98%;
+  height: 290px;
 }
