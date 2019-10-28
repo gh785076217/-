@@ -46,7 +46,7 @@ hr{
 
 .button {
     width: 152px;
-    border: 1px solid #aa2529;
+    border: 1px solid #bf1b1c;
     height: 56px;
     line-height: 56px;
     margin: 29px 0px;
@@ -55,14 +55,14 @@ hr{
 }
 
 .zyjh {
-    background-color: #aa2529;
+    background-color: #bf1b1c;
     font-size: 22px;
 }
 .zyjh a{
     color: #fff;
 }
 .sub_title {
-    color: #aa2529;
+    color: #bf1b1c;
     font-size: 26px;
     font-weight: bold;
     line-height: 70px;
@@ -70,7 +70,7 @@ hr{
 
 .book {
     margin-left: -98px;
-    color: #aa2529
+    color: #bf1b1c
 }
 
 .book li {
@@ -110,7 +110,7 @@ hr{
 }
 .left_menu a.on {
     background-position: 0px center;
-    background-color: #aa2529;
+    background-color: #bf1b1c;
     color: #fff;
 }
 .right_menu{
@@ -148,7 +148,7 @@ body,ul{
     cursor: pointer;
 }
 .tab-menu .active{
-    background: #aa2529;
+    background: #bf1b1c;
     color: white;
 }
 .tab-content li{
@@ -198,4 +198,19 @@ background-color:lightgray;
 .layui-nav-tree .layui-nav-item a:hover {
     background-color: #fff !important;
     color: black !important;
+}
+#gfxwj{
+    text-overflow: initial;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 47px !important;
+    text-indent: -6px;
+}
+
+#gfxwj span{
+    position: absolute;
+    top: 26px;
+    left: 30px;
+    font-size: 20px;
 }
