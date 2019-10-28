@@ -21,11 +21,11 @@ li{list-style:none;}
 
 .main_image{
 	height: 422px;
-	width: 60%;
+	width: 58%;
 	background-size: 100% 100%;	
 }
 .main_title{
-    width: 35%;
+    width: 35.7%;
     background-color: lightgray;
     height: 399px;
     margin-top: -421px;
@@ -37,6 +37,7 @@ li{list-style:none;}
 	padding-left: 30px;
 	font-size: 24px;
 	margin: 30px 0 32px 0;
+	font-weight: bold;
 }
 .sub_content{
 	padding-left: 30px;
@@ -84,7 +85,7 @@ li{list-style:none;}
 .ckgd{
 	width: 219px;
     height: 42px;
-    background: #aa2529;
+    background: #bf1b1c;
     margin: auto;
     line-height: 42px;
 	border-radius: 4%;
@@ -93,4 +94,19 @@ li{list-style:none;}
 
 .ckgd a{
 	color: #fff;
+}
+
+.layui-carousel-ind ul {
+	background-color: transparent !important;
+}
+
+.layui-carousel-ind li.layui-this {
+	background-color: #bf1b1c !important;
+}
+.layui-carousel-ind li {
+	margin: 0 5px !important;
+}
+.layui-carousel-ind {
+    text-align: right !important;
+    right: 41px !important;
 }
