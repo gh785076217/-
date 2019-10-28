@@ -5,15 +5,22 @@ li{list-style:none;}
 
 .title{
 	text-align: center;
-	color:#bf1b1c;
+/*	color:#bf1b1c;
 	font-size: 33px;
 	font-weight: 900;
 	line-height: 70px;
-	border-bottom: 2px solid;
 	font-family: "宋体";
-	text-shadow: 3px 2px 0px gold;
+	text-shadow: 3px 2px 0px gold; */
+	
+	background: url(../img/014.png) no-repeat;
+	height: 38px;
+	width: 143px;
+	margin: 22px auto 18px;
 }
-
+hr{
+	background-color: #bf1b1c !important;
+	height: 2px !important;
+}
 .more{
 	float:right;
 	margin-top: -34px;
@@ -25,7 +32,6 @@ li{list-style:none;}
 	height: 422px;
 	width: 60%;
 	background-size: 100% 100%;	
-	margin-top: 9px;
 }
 .main_title{
     width: 35%;
