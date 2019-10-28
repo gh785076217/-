@@ -22,6 +22,7 @@ li {
     line-height: 70px;
     border-bottom: 2px solid;
     text-shadow: 3px 2px 0px gold;
+    margin-top: 24px;
 }
 
 .title_img {
