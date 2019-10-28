@@ -7,7 +7,7 @@ li{list-style:none;}
 	line-height: 75px;
 }
 .sub_menu a {
-	color: gray;
+	color: #777777;
 	font-size: 16px;
 }
 
@@ -26,20 +26,23 @@ li{list-style:none;}
 
 .time{
 	text-align: right;
-	margin-top: -33px;
+	margin-top: -29px;
 }
 
 .rs{
     border-bottom: 1px solid lightgray;
     margin-top: 16px;
-    padding-bottom: 7px;
+	padding-bottom: 12px;
+	font-size: 16px;
+    color: #777777;
 }
 
  .content{
 	text-indent: 2em;
 	line-height: 40px;
 	margin-top: 8px;
-	font-size: 20px
+	font-size: 20px;
+	width: 1200px;
 }
 .name{
 	text-indent: 0em;
