@@ -30,12 +30,17 @@ body {
   line-height: 10px !important;
 }
 
+.dj0111 a:hover {
+  color: #bf1b1c !important; 
+  font-size: 18px !important;
+}
+
 .dj011 .layui-nav-bar {
-  background-color: #818682 !important;
+  background-color: white !important;
 }
 
 .dj011 .layui-this:after {
-  background-color: #818682 !important;
+  background-color: white !important;
 }
 
 .dj011 .layui-nav-item {
