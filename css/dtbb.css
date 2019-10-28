@@ -5,11 +5,13 @@ li{list-style:none;}
 
 .title{
 	text-align: center;
-	color:#aa2529;
+	color:#bf1b1c;
 	font-size: 33px;
-	font-weight: bold;
+	font-weight: 900;
 	line-height: 70px;
 	border-bottom: 2px solid;
+	font-family: "宋体";
+	text-shadow: 3px 2px 0px gold;
 }
 
 .more{
@@ -38,6 +40,7 @@ li{list-style:none;}
 	padding-left: 30px;
 	font-size: 24px;
 	margin: 30px 0 32px 0;
+	font-weight: bold
 }
 .sub_content{
 	padding-left: 30px;
@@ -54,7 +57,7 @@ li{list-style:none;}
 
 .switch li.on{
 
-    background-color: #aa2529;
+    background-color: #bf1b1c;
 
 }
 
@@ -67,8 +70,8 @@ li{list-style:none;}
 	width: 55%;
 }
 .title_1{
-	color:#aa2529;
-	font-size: 24px;
+	color:#bf1b1c;
+	font-size: 22px;
 	font-weight: bold;
 	line-height: 58px;
 	border-bottom: 1px solid lightgray;
@@ -76,7 +79,7 @@ li{list-style:none;}
 .square{
     width: 7px;
     height: 23px;
-    background-color: #aa2529;
+    background-color: #bf1b1c;
 	float: left;
     margin-top: 18px;
 	margin-right: 9px;
@@ -104,22 +107,24 @@ li{list-style:none;}
 .sub_title1{
 	padding-left: 43px;
     margin-bottom: 22px;
-	font-size: 24px;
+	font-size: 20px;
+	font-weight: bold
 }
 
 .sub_content1{
 	padding-left: 43px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 32px;
     text-overflow: ellipsis;
     white-space:nowrap;
 	overflow:hidden;
-	height:60px
+	height:60px;	
 }
-
+.sub_content1 a{color: #777 !important;
+}
 .sub_content2{
-	line-height: 35px;
-	margin-top: 42px;
+	line-height: 37px;
+	margin-top: 9px;
 }
 .sub_content2 ul{
     color: lightgray;
@@ -157,4 +162,35 @@ li{list-style:none;}
 	border-radius: 50%;
 	position: absolute;
 	margin-top: 14px;
+}
+
+.more a, .more1 a{
+    color: #777;
+}
+
+.content_1 {
+	width: 55% !important;
+	padding-right: 30px !important;
+	border-right: 1px solid lightgray !important;
+}
+
+.content_2 {
+	float: right !important;
+	width: 42% !important;
+	padding-right: 16px !important;
+}
+
+.content {
+	margin-top: 18px;
+}
+
+.layui-carousel-ind ul {
+	background-color: transparent !important;
+}
+
+.layui-carousel-ind li.layui-this {
+	background-color: #bf1b1c !important;
+}
+.layui-carousel-ind li {
+	margin: 0 5px !important;
 }
