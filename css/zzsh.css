@@ -17,7 +17,7 @@ input[type=text] {
 .search {
 	position: absolute;
 	left: 222px;
-	top: 4px;
+	top: 8px;
 	font-size: 20px;
 }
 .first {
@@ -25,7 +25,7 @@ input[type=text] {
 	margin: 20px 0;
 }
 .first p {
-	color: #666666;
+	color: #777777;
 	font-size: 16px;
 }
 .first p+div {
@@ -129,4 +129,8 @@ ul li{
 
 .ul_body {
 	height: 570px;
+}
+
+.layui-laypage a, .layui-laypage span {
+	font-size: 18px !important;
 }

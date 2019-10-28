@@ -17,7 +17,7 @@ input[type=text] {
 .search {
 	position: absolute;
 	left: 222px;
-	top: 4px;
+	top: 8px;
 	font-size: 20px;
 }
 .first {
@@ -48,8 +48,8 @@ input[type=text] {
 .second span {
 	font-size: 24px;
 	color: #bf1a1c;
-	margin-left: 30px;
-	
+	margin-left: 15px;
+	font-weight: bold;
 }
 .third ul li {
     list-style-type: none;
