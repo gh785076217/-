@@ -14,15 +14,20 @@ li {
     list-style: none;
 }
 
-.title {
+.title,.title1 {
     text-align: center;
-    color: #aa2529;
-    font-size: 33px;
-    font-weight: bold;
-    line-height: 70px;
-    border-bottom: 2px solid;
-    text-shadow: 3px 2px 0px gold;
-    margin-top: 24px;
+	background: url(../img/016.png) no-repeat;
+	height: 38px;
+	width: 147px;
+	margin: 22px auto 18px;
+}
+.title1{
+    background: url(../img/015.png) no-repeat; 
+    margin-top: 46px;
+}
+hr{
+	background-color: #bf1b1c !important;
+	height: 2px !important;
 }
 
 .title_img {
@@ -36,14 +41,14 @@ li {
 
 #buttons {
     float: right;
-    margin: 0 58px;
+    margin: 8px 58px;
 }
 
 .button {
     width: 152px;
     border: 1px solid #aa2529;
-    height: 61px;
-    line-height: 61px;
+    height: 56px;
+    line-height: 56px;
     margin: 29px 0px;
     padding: 2px;
     cursor: pointer;
@@ -58,21 +63,21 @@ li {
 }
 .sub_title {
     color: #aa2529;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     line-height: 70px;
 }
 
 .book {
-    margin-left: -87px;
+    margin-left: -98px;
     color: #aa2529
 }
 
 .book li {
     list-style: square;
-    font-size: 26px;
+    font-size: 24px;
     float: left;
-    margin-left: 113px;
+    margin-left: 126px;
 }
 
 .book a {
@@ -114,13 +119,13 @@ li {
     margin-top: 18px;
     padding-left: 57px;
     font-size: 17px;
-    line-height: 40px;
+    line-height: 36px;
     color: lightgrey;
     height: 277px;
 }
 .right_menu li {
     list-style: none;
-	margin-top: -9px;
+	margin-top: 2px;
 }
 .right_menu p {
     display: block;
@@ -161,14 +166,14 @@ body,ul{
 }
 .arrow{
     height: 277px;
-    float: right;
     width: 76px;
     background-color: #F5F5F5;
 	line-height: 277px;
 	position: absolute;
 	z-index: 1;
-	margin: 18px 1059px;
-	text-align: center; 
+    text-align: center; 
+    top: 0;
+    left: 870px;
 }
 
 .arrow:hover
