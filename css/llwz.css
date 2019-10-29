@@ -19,11 +19,13 @@ li {
 	background: url(../img/016.png) no-repeat;
 	height: 38px;
 	width: 147px;
-	margin: 22px auto 18px;
+    margin: 22px auto 18px;
+    background-position-y: 3px;
 }
 .title1{
     background: url(../img/015.png) no-repeat; 
     margin-top: 46px;
+    background-position-y: 3px;
 }
 hr{
 	background-color: #bf1b1c !important;
@@ -65,12 +67,17 @@ hr{
     color: #bf1b1c;
     font-size: 26px;
     font-weight: bold;
-    line-height: 70px;
+    line-height: 57px;
+    margin-top: 19px;
+}
+.sub_title span{
+    margin-top: 3px;
 }
 
 .book {
     margin-left: -98px;
-    color: #bf1b1c
+    color: #bf1b1c;
+    line-height:40px
 }
 
 .book li {
@@ -114,15 +121,15 @@ hr{
     color: #fff;
 }
 .right_menu{
-    position: relative;
     background: #F5F5F5;
     margin-top: 18px;
-    padding-left: 57px;
+    padding-left: 43px;
     font-size: 17px;
     line-height: 36px;
     color: lightgrey;
-    height: 277px;
+    height: 288px;
     padding-top: 12px;
+    margin-left: -69px;
 }
 .right_menu li {
     list-style: none;
@@ -166,15 +173,14 @@ body,ul{
 	margin-top: 14px;
 }
 .arrow{
-    height: 277px;
+    height: 288px;
     width: 76px;
     background-color: #F5F5F5;
-	line-height: 277px;
-	position: absolute;
-	z-index: 1;
-    text-align: center; 
-    top: 0;
-    left: 870px;
+    line-height: 288px;   
+    z-index: 1;
+    text-align: center;
+    margin: -266px -69px;
+    float: right;
 }
 
 .arrow:hover
@@ -184,8 +190,8 @@ background-color:lightgray;
 
 
 .layui-nav-tree .layui-nav-item a {
-    height: 67px !important;
-    width: 46px !important;
+    height: 70px !important;
+    width: 56px !important;
     line-height: 67px !important;
     color: black !important
 }
@@ -205,7 +211,7 @@ background-color:lightgray;
     white-space: nowrap;
     font-size: 20px;
     line-height: 47px !important;
-    text-indent: -6px;
+    text-indent: 0px;
 }
 
 #gfxwj span{
