@@ -38,11 +38,14 @@
 .biaoti1 ul li {
     list-style-type: none;
     float: left;
-    margin-right: 29px; 
-    margin-bottom: 15px;
+    width: 22.5%;
+    margin: 0 3.3% 2% 0;
 }
 .biaoti1 img {
-    margin-bottom: 2px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 .biaoti1 ul li:nth-of-type(4n) {
     list-style-type: none;
