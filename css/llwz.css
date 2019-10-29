@@ -10,6 +10,11 @@ th {
     padding: 0;
 }
 
+.container {
+    width: 76%;
+    margin: auto;
+}
+
 li {
     list-style: none;
 }

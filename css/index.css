@@ -78,6 +78,7 @@ body {
 .dj013 .layui-nav {
   text-align: center;
   margin: auto;
+  padding-right: 80px;
   height: 50px;
   background: #E5E5E5;
 }
