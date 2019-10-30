@@ -15,6 +15,7 @@
       padding: 4px 30px;
     }
   </style>
+  
 </head>
 
 <body>
@@ -64,7 +65,7 @@
     </div>
     <!-- 头部内容结束 -->
     <div class="dj02">
-      <iframe class="dj021" src="pages/shouye.html" frameborder="0"></iframe>
+      <iframe class="dj021" src="pages/shouye.html" frameborder="0" onload="iframeLoad()"></iframe>
     </div>
   </div>
 </body>
@@ -114,12 +115,12 @@
   });
 </script>
 <script>
-  $('.dj0111').mouseover(function(){
-    $('.dj0111 .layui-nav-img').attr('src','img/019.png');
-  });
-  $('.dj0111').mouseout(function(){
-    $('.dj0111 .layui-nav-img').attr('src','img/001.png');
-  });
+		$('.dj0111').mouseover(function(){
+      $('.dj0111 img').attr("src","img/019.png");
+    });
+    $('.dj0111').mouseout(function(){
+      $('.dj0111 img').attr("src","img/001.png");
+    });
 </script>
 
 </html>
