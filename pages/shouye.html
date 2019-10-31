@@ -203,5 +203,16 @@
     });
   })
 </script>
+<script>  
+  $('.sy04 img').click(function(){
+    $("#dj013 li:first", parent.document).attr("class","layui-nav-item");
+    $("#dj013 li:last", parent.document).attr("class","layui-nav-item layui-this");
+  });
+
+  $('.sy06 img').click(function(){
+    $("#dj013 li:first", parent.document).attr("class","layui-nav-item");
+    $("#dj013 li:eq(2)", parent.document).attr("class","layui-nav-item layui-this");
+  });
+</script>
 
 </html>
