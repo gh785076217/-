@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link type="text/css" rel="stylesheet" href="../css/lgxd.css" />
-		<link type="text/css" rel="stylesheet" href="../js/layui/css/layui.css" />
-		<script type="text/javascript" src="../js/layui/layui.js"></script>	
-		<style type="text/css">
-			p {
-				margin: 10px 0 0 20px;
-			}
-		</style>		
-	</head>
-	<body>
-		<div class="container">
-			<div class="layui-row biaoti1">
-				<img src="../img/未标题-1.png">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link type="text/css" rel="stylesheet" href="../css/lgxd.css" />
+	<link type="text/css" rel="stylesheet" href="../js/layui/css/layui.css" />
+	<script type="text/javascript" src="../js/layui/layui.js"></script>
+	<script src="../js/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="layui-row biaoti1">
+			<img src="../img/未标题-1.png">
+		</div>
+		<div class="layui-row biaoti">
+			<div></div>
+			<span>来稿选登</span>
+			<a class="div_more" href="../pages/zuzhishenghuo.html?lgxd"><span>更多&nbsp;&gt;</span></a>
+			<hr />
+		</div>
+		<div class="layui-row container2">
+			<div class="layui-col-md6">
+				<ul>
+					<li>
+						<div class="box1"></div>
+						<a href="../pages/wz.html?lgxd"><span>发生在我身边的故事</span></a>
+						<p>——湖北省谷城县委组织部 邵炟</p>
+					</li>
+					<li>
+						<div class="box1"></div>
+						<a href="../pages/wz.html?lgxd"><span>抓牢主题教育 增强 "俩新" 党组织向心力</span></a>
+						<p>——山东省临沂市河东区太平街道办事处 王亚群</p>
+					</li>
+					<li>
+						<div class="box1"></div>
+						<a href="../pages/wz.html?lgxd"><span>调查研究要 "多维度" 开展</span></a>
+						<p>——陕西省安康市委组织部 邱益松</p>
+					</li>
+					<li>
+						<div class="box1"></div>
+						<a href="../pages/wz.html?lgxd"><span>从农民朋友耕种中悟 "初心"</span></a>
+						<p>——四川省筠连县工业园区监察审计局 徐元金</p>
+					</li>
+					<li>
+						<div class="box1"></div>
+						<a href="../pages/wz.html?lgxd"><span>从守住内心的 "方寸之园" 谈选调初心</span></a>
+						<p>——湖北省兴山县黄粮镇政府 王嘉豪</p>
+					</li>
+				</ul>
 			</div>
-			<div class="layui-row biaoti">
-				<div></div>
-				<span>来稿选登</span>
-				<a href="../pages/zuzhishenghuo.html?lgxd"><span>更多&nbsp;&gt;</span></a>
-				<hr />
-			</div>
-			<div class="layui-row container2">
-				<div class="layui-col-md6">
+			<div class="layui-col-md6">
+				<div class="container1">
 					<ul>
 						<li>
 							<div class="box1"></div>
@@ -53,38 +81,14 @@
 						</li>
 					</ul>
 				</div>
-				<div class="layui-col-md6">
-					<div class="container1">
-						<ul>
-							<li>
-								<div class="box1"></div>
-								<a href="../pages/wz.html?lgxd"><span>发生在我身边的故事</span></a>
-								<p>——湖北省谷城县委组织部 邵炟</p>
-							</li>
-							<li>
-								<div class="box1"></div>
-								<a href="../pages/wz.html?lgxd"><span>抓牢主题教育 增强 "俩新" 党组织向心力</span></a>
-								<p>——山东省临沂市河东区太平街道办事处 王亚群</p>
-							</li>
-							<li>
-								<div class="box1"></div>
-								<a href="../pages/wz.html?lgxd"><span>调查研究要 "多维度" 开展</span></a>
-								<p>——陕西省安康市委组织部 邱益松</p>
-							</li>
-							<li>
-								<div class="box1"></div>
-								<a href="../pages/wz.html?lgxd"><span>从农民朋友耕种中悟 "初心"</span></a>
-								<p>——四川省筠连县工业园区监察审计局 徐元金</p>
-							</li>
-							<li>
-								<div class="box1"></div>
-								<a href="../pages/wz.html?lgxd"><span>从守住内心的 "方寸之园" 谈选调初心</span></a>
-								<p>——湖北省兴山县黄粮镇政府 王嘉豪</p>
-							</li>
-						</ul>
-					</div>					
-				</div>
-			</div>		
+			</div>
 		</div>
-	</body>
+	</div>
+</body>
+<script>
+	$('.div_more').on('click', function () {
+		parent.setHeight('770px')
+	})
+</script>
+
 </html>

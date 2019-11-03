@@ -7,34 +7,22 @@
     <link type="text/css" rel="stylesheet" href="../css/dbdb.css" />
     <link type="text/css" rel="stylesheet" href="../js/layui/css/layui.css" />
     <script type="text/javascript" src="../js/layui/layui.js"></script>
-    <style>
-        hr {
-            background-color: #bf1a1c;
-            height: 2px;
-        }
-        .biaoti4>span {
-	font-size: 24px;
-	color: #bf1a1c;
-	margin-left: 40%;
-    font-weight: bold;
-    text-align: center;
-}
-    </style>
+    <script src="../js/jquery-3.2.1.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="layui-row biaoti">
             <div class="title"></div>
-            <a href="../pages/zuzhishenghuo.html?gjxz"><span>更多 &gt;</span></a>
+            <a class="div_more" href="../pages/zuzhishenghuo.html?gjxz"><span>更多 &gt;</span></a>
             <hr />
         </div>
         <div class="layui-row biaoti1">
             <ul>
                 <li>
                     <div>
-                            <a href="../pages/wz.html?gjxz"><img
-                            src="http://p2.img.cctvpic.com/photoAlbum/page/performance/img/2019/9/29/1569742127282_33.jpg" /></a>
+                        <a href="../pages/wz.html?gjxz"><img
+                                src="http://p2.img.cctvpic.com/photoAlbum/page/performance/img/2019/9/29/1569742127282_33.jpg" /></a>
                         <p><a href="../pages/wz.html?gjxz">于敏：为祖国强生奉献一生</a></p>
                     </div>
                 </li>
@@ -92,22 +80,22 @@
         <div class="layui-row biaoti2">
             <ul>
                 <li>
-                        <a href="../pages/wz.html?gjxz">
+                    <a href="../pages/wz.html?gjxz">
                         <p>习近平：在国家勋章和国家荣誉称号颁授仪式上进行按事件后端框架南大街</p>
                     </a>
                 </li>
                 <li>
-                        <a href="../pages/wz.html?gjxz">
+                    <a href="../pages/wz.html?gjxz">
                         <p>习近平：在国家勋章和国家荣誉称号颁授仪式上进行按事件后端框架南大街</p>
                     </a>
                 </li>
                 <li>
-                        <a href="../pages/wz.html?gjxz">
+                    <a href="../pages/wz.html?gjxz">
                         <p>习近平：在国家勋章和国家荣誉称号颁授仪式上进行按事件后端框架南大街</p>
                     </a>
                 </li>
                 <li>
-                        <a href="../pages/wz.html?gjxz">
+                    <a href="../pages/wz.html?gjxz">
                         <p>习近平：在国家勋章和国家荣誉称号颁授仪式上进行按事件后端框架南大街</p>
                     </a>
                 </li>
@@ -137,7 +125,7 @@
         </div>
         <div class="layui-row biaoti4">
             <div class="title1"></div>
-            <a href="../pages/zuzhishenghuo.html?cjxjdx"><span>更多 &gt;</span></a>
+            <a class="div_more" href="../pages/zuzhishenghuo.html?cjxjdx"><span>更多 &gt;</span></a>
             <hr />
         </div>
         <div class="layui-row biaoti1 db">
@@ -174,5 +162,10 @@
         </div>
     </div>
 </body>
+<script>
+    $('.div_more').on('click', function () {
+        parent.setHeight('770px')
+    })
+</script>
 
 </html>

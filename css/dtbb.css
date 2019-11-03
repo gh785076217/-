@@ -1,168 +1,187 @@
-body,td,th {font-size: 18px;background-color:white;font-family:Microsoft YaHei;}
-*{margin:0; padding:0;}
+body,
+td,
+th {
+	font-size: 18px;
+	background-color: white;
+	font-family: Microsoft YaHei;
+}
 
-li{list-style:none;}
+* {
+	margin: 0;
+	padding: 0;
+}
 
-.title{
+li {
+	list-style: none;
+}
+
+.title {
 	text-align: center;
-/*	color:#bf1b1c;
-	font-size: 33px;
-	font-weight: 900;
-	line-height: 70px;
-	font-family: "宋体";
-	text-shadow: 3px 2px 0px gold; */
-	
 	background: url(../img/014.png) no-repeat;
 	height: 38px;
 	width: 143px;
 	margin: 22px auto 18px;
 	background-position-y: 3px;
 }
-hr{
+
+hr {
 	background-color: #bf1b1c !important;
 	height: 2px !important;
 }
-.more{
-	float:right;
+
+.more {
+	float: right;
 	margin-top: -34px;
 	font-size: 16px;
-	color:lightgray
+	color: lightgray
 }
 
-.main_image{
+.main_image {
 	height: 422px;
 	width: 58%;
-	background-size: 100% 100%;	
-}
-.main_title{
-    width: 35.7%;
-    background-color: #e5e5e5;
-    height: 399px;
-    margin-top: -421px;
-	float: right;
-	padding:21px 55px 0 21px;
+	background-size: 100% 100%;
 }
 
-.sub_title{
+.main_title {
+	width: 35.7%;
+	background-color: #e5e5e5;
+	height: 399px;
+	margin-top: -421px;
+	float: right;
+	padding: 21px 55px 0 21px;
+}
+
+.sub_title {
 	padding-left: 30px;
 	font-size: 24px;
 	margin: 30px 0 32px 0;
 	font-weight: bold
 }
-.sub_content{
+
+.sub_content {
 	padding-left: 30px;
 	line-height: 34px;
 }
-.switch li{
-    width: 14px;
-    height: 14px;
-    background-color: white;
-    border-radius: 50%;
-    float: right;
-    margin: 7px;
+
+.switch li {
+	width: 14px;
+	height: 14px;
+	background-color: white;
+	border-radius: 50%;
+	float: right;
+	margin: 7px;
 }
 
-.switch li.on{
+.switch li.on {
 
-    background-color: #bf1b1c;
+	background-color: #bf1b1c;
 
 }
 
-.switch{
+.switch {
 	margin-top: 34px;
-	
+
 }
 
-.content_1{
+.content_1 {
 	width: 55%;
 }
-.title_1{
-	color:#bf1b1c;
+
+.title_1 {
+	color: #bf1b1c;
 	font-size: 22px;
 	font-weight: bold;
 	line-height: 58px;
 	border-bottom: 1px solid lightgray;
 }
-.square{
-    width: 7px;
-    height: 23px;
-    background-color: #bf1b1c;
+
+.square {
+	width: 7px;
+	height: 23px;
+	background-color: #bf1b1c;
 	float: left;
-    margin-top: 18px;
+	margin-top: 18px;
 	margin-right: 9px;
 }
-.more1{
-	float:right;
+
+.more1 {
+	float: right;
 	margin-top: -31px;
 	font-size: 16px;
 }
 
-.main_image1{
+.main_image1 {
 	height: 150px;
 	width: 30%;
-    background: url(../img/content1.png) no-repeat;
-	background-size: 100% 100%;	
+	background: url(../img/content1.png) no-repeat;
+	background-size: 100% 100%;
 	margin-top: 15px;
 }
 
-.main_title1{
-    width: 70%;
-    height: 150px;
-    float: right;   
-    margin-top: -154px;
+.main_title1 {
+	width: 70%;
+	height: 150px;
+	float: right;
+	margin-top: -154px;
 }
-.sub_title1{
+
+.sub_title1 {
 	padding-left: 43px;
-    margin-bottom: 22px;
+	margin-bottom: 22px;
 	font-size: 20px;
 	font-weight: bold
 }
 
-.sub_content1{
+.sub_content1 {
 	padding-left: 43px;
 	font-size: 17px;
 	line-height: 32px;
-    text-overflow: ellipsis;
-    white-space:nowrap;
-	overflow:hidden;
-	height:60px;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 60px;
 }
-.sub_content1 a{color: #777 !important;
+
+.sub_content1 a {
+	color: #777 !important;
 }
-.sub_content2{
+
+.sub_content2 {
 	line-height: 42px;
 	margin-top: 9px;
 }
-.sub_content2 ul{
-    color: lightgray;
+
+.sub_content2 ul {
+	color: lightgray;
 }
 
-.two li{
+.two li {
 	list-style: none;
 	text-indent: 0px;
 }
 
-.two{
+.two {
 	margin-top: 3px;
 }
+
 .sub_content2 div {
-	    text-overflow: ellipsis;
-	white-space:nowrap;
-	overflow:hidden;
-} 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
 
 .sub_content2 li {
 	text-overflow: ellipsis;
-	white-space:nowrap;
-	overflow:hidden;
-} 
-
-.three{
-	text-indent: 13px;
-	
+	white-space: nowrap;
+	overflow: hidden;
 }
 
-.disc{
+.three {
+	text-indent: 13px;
+
+}
+
+.disc {
 	width: 8px;
 	height: 8px;
 	background-color: lightgray;
@@ -171,8 +190,9 @@ hr{
 	margin-top: 14px;
 }
 
-.more a, .more1 a{
-    color: #777;
+.more a,
+.more1 a {
+	color: #777;
 }
 
 .content_1 {
@@ -198,10 +218,12 @@ hr{
 .layui-carousel-ind li.layui-this {
 	background-color: #bf1b1c !important;
 }
+
 .layui-carousel-ind li {
 	margin: 0 5px !important;
 }
+
 .layui-carousel-ind {
-    text-align: right !important;
-    right: 41px !important;
+	text-align: right !important;
+	right: 41px !important;
 }

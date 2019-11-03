@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>组织生活</title>
-		<link rel="stylesheet" href="../css/wz.css">
-		<link rel="stylesheet" href="../js/layui/css/layui.css">
-		<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
-		<script type="text/javascript" src="../js/layui/layui.js"></script>
-		<style type="text/css">
-			body,
-			td,
-			th {
-				font-size: 18px;
-				background-color: white;
-				font-family: Microsoft YaHei;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="" style="width: 100%;">
-			<div style="width: 76%; margin: auto;">
-				<div class="sub_menu">
-					<a href="javascript:history.back(-1)">&lt;&nbsp;返回上一页</a>
-					<!--<a href="../pages/shouye.html">首页 ></a><a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">组织生活</a>-->
-				</div>				
-		        <div class="title">习近平: 在庆祝中华人民共和国成立70周年大会上的讲话</div>
-				<div class="rs">
-					<div class="fbr">
-						发布人: 党建管理员
-					</div>
-					<div class="time">
-						2019-06-27: 14:11
-					</div>					
+<head>
+	<meta charset="utf-8">
+	<title>组织生活</title>
+	<link rel="stylesheet" href="../css/wz.css">
+	<link rel="stylesheet" href="../js/layui/css/layui.css">
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="../js/layui/layui.js"></script>
+</head>
+<body>
+	<div class="" style="width: 100%;">
+		<div style="width: 76%; margin: auto;">
+			<div class="sub_menu">
+				<a href="javascript:history.back(-1)">&lt;&nbsp;返回上一页</a>
+				<!--<a href="../pages/shouye.html">首页 ></a><a href="../pages/dongtaibobao.html">动态播报 ></a><a href="javascript:history.back(-1)">组织生活</a>-->
+			</div>
+			<div class="title">习近平: 在庆祝中华人民共和国成立70周年大会上的讲话</div>
+			<div class="rs">
+				<div class="fbr">
+					发布人: 党建管理员
 				</div>
+				<div class="time">
+					2019-06-27: 14:11
+				</div>
+			</div>
 			<div class="content">
-				<p class="name">全国同胞们,  同志们,  朋友们:</p>
+				<p class="name">全国同胞们, 同志们, 朋友们:</p>
 				<p>今天，我们隆重集会，庆祝中华人民共和国成立70周年。此时此刻，全国各族人民、海内外中华儿女，都怀着无比喜悦的心情，都为我们伟大的祖国感到自豪，
 					都为我们伟大的祖国衷心祝福。
 				</p>
-				<p>在这里，我代表党中央、全国人大、国务院、全国政协和中央军委，向一切为民族独立和人民解放、国家富强和人民幸福建立了不朽功勋的革命先辈和烈士们，表示深切的怀念！向全国各族人民和海内外爱国同胞，致以热烈的祝贺！向关心和支持中国发展的各国朋友，表示衷心的感谢！
+				<p>
+					在这里，我代表党中央、全国人大、国务院、全国政协和中央军委，向一切为民族独立和人民解放、国家富强和人民幸福建立了不朽功勋的革命先辈和烈士们，表示深切的怀念！向全国各族人民和海内外爱国同胞，致以热烈的祝贺！向关心和支持中国发展的各国朋友，表示衷心的感谢！
 				</p>
-                <p>
-				 70年前的今天，毛泽东同志在这里向世界庄严宣告了中华人民共和国的成立，中国人民从此站起来了。这一伟大事件，彻底改变了近代以后100多年中国积贫积弱、受人欺凌的悲惨命运，中华民族走上了实现伟大复兴的壮阔道路。
+				<p>
+					70年前的今天，毛泽东同志在这里向世界庄严宣告了中华人民共和国的成立，中国人民从此站起来了。这一伟大事件，彻底改变了近代以后100多年中国积贫积弱、受人欺凌的悲惨命运，中华民族走上了实现伟大复兴的壮阔道路。
 				</p>
 				<p>
 					70年来，全国各族人民同心同德、艰苦奋斗，取得了令世界刮目相看的伟大成就。今天，社会主义中国巍然屹立在世界东方，没有任何力量能够撼动我们伟大祖国的地位，没有任何力量能够阻挡中国人民和中华民族的前进步伐。
@@ -77,15 +69,16 @@
 					伟大的中国人民万岁！
 				</p>
 			</div>
-		  </div>
-	   </div>
-	</body>
-	<script>
+		</div>
+	</div>
+</body>
+<script>
 	getUrlName()
+
 	function getUrlName() {
 		var name = location.search.substring(1)
 
-		if('ttxw' == name){
+		if ('ttxw' == name) {
 			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
@@ -109,7 +102,7 @@
 			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
-		
+
 		/*if ('zfyh' == name) {
 			var str = '<a href="../pages/shouye.html">< 返回首页</a>';
 			$('.sub_menu').html("").prepend(str)
@@ -154,12 +147,13 @@
 			var str = '<a href="../pages/dbdb.html">对标对表 ></a><a href="javascript:history.back(-1)">国家勋章和国家荣誉称号获得者</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
-		
+
 		if ('gzzz' == name) {
 			var str = '<a href="../pages/lilunwuzhuang.html">< 理论武装</a>';
 			$('.sub_menu').html("").prepend(str)
 		}
 
 	}
-	</script>
+</script>
+
 </html>

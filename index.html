@@ -15,7 +15,7 @@
       padding: 4px 30px;
     }
   </style>
-  
+
 </head>
 
 <body>
@@ -82,45 +82,49 @@
       var navName = elem.text();
 
       if (navName == '首页') {
-
+        setHeight('1500px')
         $('.dj021').attr('src', 'pages/shouye.html')
 
       } else if (navName == '动态播报') {
-
+        setHeight('1200px')
         $('.dj021').attr('src', 'pages/dongtaibobao.html')
 
       } else if (navName == '理论武装') {
-
+        setHeight('1000px')
         $('.dj021').attr('src', 'pages/lilunwuzhuang.html')
 
       } else if (navName == '作风优化') {
-
+        setHeight('970px')
         $('.dj021').attr('src', 'pages/zuofengyouhua.html')
 
       } else if (navName == '对标对表') {
-
+        setHeight('1500px')
         $('.dj021').attr('src', 'pages/dbdb.html')
 
       } else if (navName == '查改提质') {
-
+        setHeight('1500px')
         $('.dj021').attr('src', 'pages/chagaitizhi.html')
 
       } else if (navName == '互动交流') {
-
+        setHeight('770px')
         $('.dj021').attr('src', 'pages/laigaoxuandeng.html')
 
       }
 
     });
   });
-</script>
-<script>
-		$('.dj0111').mouseover(function(){
-      $('.dj0111 img').attr("src","img/019.png");
-    });
-    $('.dj0111').mouseout(function(){
-      $('.dj0111 img').attr("src","img/001.png");
-    });
+
+  $('.dj0111').on('mouseover', function () {
+    $('.dj0111 img').attr("src", "img/019.png");
+  });
+  $('.dj0111').on('mouseout', function () {
+    $('.dj0111 img').attr("src", "img/001.png");
+  });
+
+  function setHeight(height) { // 设置iframediv高度避免留白太多
+    $('.dj021').css('height', height)
+  }
+
 </script>
 
 </html>

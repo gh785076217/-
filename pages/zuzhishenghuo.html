@@ -28,14 +28,14 @@
 				<li class="layui-nav-item"><a href="javascript:;">准则</a></li>
 				<li class="layui-nav-item"><a href="javascript:;">规则</a></li>
 				<li class="layui-nav-item"><a href="javascript:;">办法</a></li>
-				<li class="layui-nav-item"><a href="javascript:;">规范性文件</a></li>		
+				<li class="layui-nav-item"><a href="javascript:;">规范性文件</a></li>
 			</ul>
 		</div>
 
 		<div class="container1">
 			<div class="layui-row first">
-				 <!-- <p>首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="../pages/dongtaibobao.html">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p> -->
-				
+				<!-- <p>首页&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="../pages/dongtaibobao.html">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p> -->
+
 				<div>
 					<form>
 						<input type="text" placeholder="&nbsp;&nbsp;&nbsp;请输入关键字">
@@ -81,7 +81,6 @@
 
 </body>
 <script>
-	
 	layui.use(['laypage', 'element', 'layer'], function () {
 		var layer = layui.layer;
 		var element = layui.element;
@@ -100,108 +99,106 @@
 
 
 	getUrlName()
+
 	function getUrlName() {
 		var name = location.search.substring(1)
 		if ('gzbs' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;工作部署</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;工作部署</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('工作部署')
 		}
 
 		if ('gdpl' == name) {
 
-			var str = '<p><a href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;观点评论</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;观点评论</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('观点评论')
 		}
 
 		if ('zyjh' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 理论武装</a></p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;重要讲话</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('重要讲话')
 		}
 
 		if ('xxyt' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 理论武装</a></p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;学习研讨</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('学习研讨')
 		}
-		
+
 		if ('ycjy' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;远程教育</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;远程教育</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('远程教育')
 		}
 
 		if ('zzsh' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;组织生活</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('组织生活')
 		}
 
 		if ('ztdr' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;主题党日</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">动态播报</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;主题党日</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('主题党日')
 		}
 
 		if ('jswt' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;检视问题</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;检视问题</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('检视问题')
 		}
 
 		if ('zgls' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;整改落实</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">查改品质</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;整改落实</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('整改落实')
 		}
 
 		if ('lgxd' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">互动交流</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;来稿选登</p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">互动交流</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;来稿选登</p>';
 			$('.first').prepend(str)
 			$('.titleName').html('"向组织说出心里话" 来稿')
 		}
 
 		if ('cjxjdx' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 返回上一页</a></p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">< 返回上一页</a></p>';
 			$('.first').prepend(str)
 			$('.titleName').html('川姜先进典型')
 		}
-		
+
 		if ('llwz' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 返回上一页</a></p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">< 返回上一页</a></p>';
 			$('.first').prepend(str)
 			$('.titleName').html('党章党规')
-			$('.navBar').css({visibility : 'visible'})
+			$('.navBar').css({
+				visibility: 'visible'
+			})
 		}
 
 		if ('zfyh' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 作风优化</a></p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">< 作风优化</a></p>';
 			$('.first').prepend(str)
 			$('.titleName').html('作风优化')
 		}
 
 		if ('gjxz' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 返回上一页</a></p>';
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">< 返回上一页</a></p>';
 			$('.first').prepend(str)
 			$('.titleName').html('国家勋章和国家荣誉称号获得者')
 		}
 
-		if('mzdzz' == name) {
-			var str = '<p><a href="javascript:history.back(-1)">< 返回上一页</a></p>';
+		if ('mzdzz' == name) {
+			var str = '<p><a class="div_more" href="javascript:history.back(-1)">< 返回上一页</a></p>';
 			$('.first').prepend(str)
 		}
-		
-
 	}
+
+	$('.div_more').on('click', function () {
+		parent.setHeight('1500px')
+	})
 </script>
-<!--<script>
-function IFrameResize() {
-    var obj = parent.document.getElementsByClassName("dj021");
-    var objScrollHeight = this.document.body.scrollHeight;
-    $(obj).css('height', objScrollHeight+100);
-    $(obj).parent('.dj021').css('height', objScrollHeight+1000);
-}
-</script>-->
+
 </html>
