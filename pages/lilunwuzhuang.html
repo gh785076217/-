@@ -64,7 +64,7 @@
 			<hr>
 			<div class="lay-row layui-tab">
 				<div class="layui-col-xs3 left_menu">
-					<ul class="layui-nav layui-nav-tree  tab-menu layui-tab-title " lay-filter="test" style="margin-left: -16px;">
+					<ul class="layui-nav layui-nav-tree  tab-menu layui-tab-title " lay-filter="bar" style="margin-left: -16px;">
 						<li class="layui-nav-item layui-this"><a href="javascript:;">党章</a></li>
 						<li class="layui-nav-item"><a href="javascript:;">准则</a></li>
 						<li class="layui-nav-item"><a href="javascript:;">条例</a></li>
@@ -120,7 +120,7 @@
 	layui.use(['element', 'layer'], function () {
 		var layer = layui.layer;
 		var element = layui.element;
-		element.on('nav(test)', function (elem) { //左侧监听事件
+		element.on('nav(bar)', function (elem) { //左侧监听事件
 			layer.msg(elem.text());
 		});
 	});
